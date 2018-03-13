@@ -101,15 +101,6 @@ main {
     display: none;
 }
 
-@media (min-width: 426px) {
-    .logo__mobile {
-        display: none;
-    }
-    .logo__text {
-        display: inline-block;
-    }
-}
-
 main h2 {
     font-size: 28px;
 }
@@ -159,3 +150,13 @@ footer {
     padding-bottom: 30px;
     color: #ba8058;
 }
+
+@media (min-width: 425px) {
+    .logo__mobile {
+        display: none;
+    }
+    .logo__text {
+        display: inline-block;
+    }
+}
+
